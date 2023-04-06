@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: () => btnclicked(btnval), 
         child: Text( btnval,
         
-        style: TextStyle(
+        style: const TextStyle(
             fontSize: 30.0,
            
           ),
@@ -113,11 +113,11 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Expanded(
               child: Container(
-                padding: EdgeInsets.all(30.0),
+                padding: const EdgeInsets.all(30.0),
                 alignment: Alignment.bottomRight,
                 child: Text(
                   "$texttodisplay",
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 30.0,
                     fontWeight: FontWeight.w600
                   ),

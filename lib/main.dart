@@ -37,9 +37,9 @@ class _SampleAppPageState extends State<SampleAppPage> {
 
 
 
-  ShowCalculator(){
+  showCalculator(){
     Navigator.push(
-      this.context,
+      context,
       MaterialPageRoute(builder: (context) => const MyApp()),
     );}
 
@@ -69,7 +69,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.all(10)
               ),
-              onPressed: ShowCalculator, 
+              onPressed: showCalculator, 
               child: const Text("CALCULATOR")),
 
             ElevatedButton(
